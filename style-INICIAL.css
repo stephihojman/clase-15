@@ -23,12 +23,12 @@ body {
   background-color: rgb(209, 245, 175);
 }
 
-button:hover {
+button:hover /*:not(:disabled)*/ {
   background-color: rgb(117, 117, 253);
 }
 
 button:active {
-  background-color: blueviolet;
+  background-color: rgb(102, 23, 102);
 }
 
 .oferta:target {
@@ -40,3 +40,9 @@ button:active {
 :visited {
   color: gray;
 }
+
+button.pago-paypal::before {
+  content: "Soy Paypal ";
+}
+button.pago-mercado-libre::before {
+  content: "Soy MercadoLibre ";
