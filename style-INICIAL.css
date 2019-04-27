@@ -5,6 +5,7 @@ img {
 .oferta {
   margin: 2em;
   border: 1px solid black;
+  text-align: center;
 }
 
 body {
@@ -22,10 +23,20 @@ body {
   background-color: rgb(209, 245, 175);
 }
 
-a:hover {
-  background-color: rgb(167, 167, 240);
+button:hover {
+  background-color: rgb(117, 117, 253);
+}
+
+button:active {
+  background-color: blueviolet;
 }
 
 .oferta:target {
   font-size: 25px;
+}
+:link {
+  color: black;
+}
+:visited {
+  color: gray;
 }
