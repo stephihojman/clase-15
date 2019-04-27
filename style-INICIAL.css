@@ -3,9 +3,11 @@ img {
 }
 
 .oferta {
-  margin: 2em;
+  /*margin: 2em;*/
   border: 1px solid black;
   text-align: center;
+  width: 50%;
+  margin: 2em auto;
 }
 
 body {
@@ -23,7 +25,13 @@ body {
   background-color: rgb(209, 245, 175);
 }
 
-button:hover /*:not(:disabled)*/ {
+a {
+  text-decoration: none;
+}
+nav {
+  text-align: center;
+}
+button:hover:not(:disabled) {
   background-color: rgb(117, 117, 253);
 }
 
@@ -37,12 +45,12 @@ button:active {
 :link {
   color: black;
 }
-:visited {
+a:active {
   color: gray;
 }
 
 button.pago-paypal::before {
-  content: "Soy Paypal ";
+  content: "Soy Paypal 💳 ";
 }
 button.pago-mercado-libre::before {
-  content: "Soy MercadoLibre ";
+  content: "Soy MercadoLibre 👛 ";
