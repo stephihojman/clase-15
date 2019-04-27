@@ -6,3 +6,26 @@ img {
   margin: 2em;
   border: 1px solid black;
 }
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#silenciosa {
+  background-color: rgb(133, 238, 203);
+}
+
+#kitana {
+  background-color: rgb(233, 139, 241);
+}
+
+#buenito {
+  background-color: rgb(209, 245, 175);
+}
+
+a:hover {
+  background-color: rgb(167, 167, 240);
+}
+
+.oferta:target {
+  font-size: 25px;
+}
